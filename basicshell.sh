@@ -1,0 +1,1 @@
+gnome-terminal --tab -e "bash -c 'cd /home/manikandan/workspace/kencloud_v1_1/;source /home/manikandan/env/kencloud/bin/activate; python manage.py runserver 0:8000;exec $SHELL'" --tab -e "bash -c 'cd /home/manikandan/workspace/new/kencloud_v1_1/;source /home/manikandan/env/kencloud/bin/activate; python manage.py runserver 0:8001;exec $SHELL'"
